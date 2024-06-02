@@ -4,8 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface StudentRepository extends JpaRepository<Student, Integer> {
-
-    List<Student> findAllByFirstName(String firstName);
+public interface BatchStudentRepo extends JpaRepository<BatchStudent, Integer> {
 }
 

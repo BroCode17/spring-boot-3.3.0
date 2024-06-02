@@ -53,6 +53,14 @@ public class Student {
         this.email = email;
     }
 
+    //Batch Student
+    public Student(int id, String firstName, String lastName, int age) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
+
     public int getId() {
         return id;
     }

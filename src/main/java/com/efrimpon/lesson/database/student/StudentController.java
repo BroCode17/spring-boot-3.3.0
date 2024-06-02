@@ -42,10 +42,10 @@ public class StudentController {
     }
 
     //post student
-    @PostMapping("/students")
-    public StudentResponseDTO saveStudent(@Valid @RequestBody StudentDTO studentDTO) {
-            return this.studentService.saveStudent(studentDTO);
-    }
+//    @PostMapping("/students")
+//    public StudentResponseDTO saveStudent(@Valid @RequestBody StudentDTO studentDTO) {
+//            return this.studentService.saveStudent(studentDTO);
+//    }
 
 
     //delete student by id
